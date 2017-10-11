@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\word">
+      <UniqueIdentifier>{33c9d70d-7ca3-4b60-a837-f2afa5cac83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\word">
+      <UniqueIdentifier>{9ce049cc-9cdb-4e2e-acfa-d560410c1a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\action">
+      <UniqueIdentifier>{3a8588de-681b-45b8-86ee-0cdc9cef07c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\action">
+      <UniqueIdentifier>{60c966c4-d862-420f-a189-525c22ff1b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\action\imp">
+      <UniqueIdentifier>{8553fcf2-3405-4f4b-a631-e1e1d433a51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\action\imp">
+      <UniqueIdentifier>{2c32d4c9-8344-45c4-9e4c-4b123795dc4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\help">
+      <UniqueIdentifier>{73faf224-bbc0-46a4-8252-cb4a8f8bcc53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\import">
+      <UniqueIdentifier>{4c8fb865-0be8-40b2-a8bc-6a7b2d1040f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InitEnv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkServer.h">
+      <Filter>头文件\word</Filter>
+    </ClInclude>
+    <ClInclude Include="action\IAction.h">
+      <Filter>头文件\action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\ActionID.h">
+      <Filter>头文件\action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\IActionDB.h">
+      <Filter>头文件\action</Filter>
+    </ClInclude>
+    <ClInclude Include="CryMainForm.h">
+      <Filter>头文件\action\imp</Filter>
+    </ClInclude>
+    <ClInclude Include="CrySystemRegisterForm.h">
+      <Filter>头文件\action\imp</Filter>
+    </ClInclude>
+    <ClInclude Include="CrySystemRechargeForm.h">
+      <Filter>头文件\action\imp</Filter>
+    </ClInclude>
+    <ClInclude Include="CrySystemVersionMatc.h">
+      <Filter>头文件\action\imp</Filter>
+    </ClInclude>
+    <ClInclude Include="CryFileHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CrySystemFindWindowForm.h">
+      <Filter>头文件\action\imp</Filter>
+    </ClInclude>
+    <ClInclude Include="GdiBoxHelper.h">
+      <Filter>头文件\help</Filter>
+    </ClInclude>
+    <ClInclude Include="PicHelper.h">
+      <Filter>头文件\help</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectedWindow.h">
+      <Filter>头文件\help</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\Common\include\import\Protobuf.hpp">
+      <Filter>头文件\import</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkServer.cpp">
+      <Filter>源文件\word</Filter>
+    </ClCompile>
+    <ClCompile Include="action\ActionDB.cpp">
+      <Filter>源文件\action</Filter>
+    </ClCompile>
+    <ClCompile Include="CryMainForm.cpp">
+      <Filter>源文件\action\imp</Filter>
+    </ClCompile>
+    <ClCompile Include="CrySystemRegisterForm.cpp">
+      <Filter>源文件\action\imp</Filter>
+    </ClCompile>
+    <ClCompile Include="CrySystemRechargeForm.cpp">
+      <Filter>源文件\action\imp</Filter>
+    </ClCompile>
+    <ClCompile Include="CrySystemVersionMatc.cpp">
+      <Filter>源文件\action\imp</Filter>
+    </ClCompile>
+    <ClCompile Include="CryFileHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CrySystemFindWindowForm.cpp">
+      <Filter>源文件\action\imp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Client.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ptr.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Client.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Down.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Up.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
